@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.home{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.post{
+    padding: 20px;
+    position: relative;
+    width: 70%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 7px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    justify-content: space-around;
+      align-items: center;
+      margin: auto;
+}
+.image>img{
+      max-width: 500px;
+      max-height: 500px;
+      border-radius: 5px;
+      
+
+}
+.text>h1{
+   text-align: center;
+   margin-bottom: 1rem;
+   font-size: 30px;
+   font-family: 'Rubik', sans-serif;
+}
+.text>p{
+max-width: 650px;
+margin-bottom: 1rem;
+font-size: 18px;
+padding-right: 20px;
+padding-left: 20px;
+font-family: 'Poppins', sans-serif;
+
+}
+.text>h3{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 2rem;
+    padding-left: 10px;
+}
+.delete{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1100px){
+    .post{
+        width: 95%;
+        flex-direction: column;
+    }
+    .image>img{
+        width: 100%;
+        height: auto;
+  
+  }
+  .delete{
+    position: initial;  
+
+}
+.text>h1{
+    margin-top: 2rem;
+}
+.text>p{
+    .text>p{
+        margin-bottom: 1rem;
+        font-size: 18px;
+        padding-right: 0px;
+        
+        }
+}
+}
